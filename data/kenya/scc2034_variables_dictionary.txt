@@ -1,0 +1,32 @@
+Variables Dictionary
+========
+
+Households.
+There are 5 households in the dataset. They are labelled as L, F, E, B and H, by increasing size.
+Members of households L, F and E wore the sensors during overlapping time windows.
+
+Age.
+Members’ age is indicated with numbers from 0 to 4 corresponding the following age brackets:
+0 - from 0 to 5 years old;
+1 - from 6 to 14 years old;
+2 - from 15 to 19 years old;
+3 - from 20 to 49 years old;
+4 - 50 and older.
+
+Day of experiment.
+Contact data has been collected over three consecutive days for each household that are indicated as Day 1, Day 2, Day 3 and correspond to:
+L = [25/04/2012, 26/04/2012, 27/04/2012]
+F = [26/04/2012, 27/04/2012, 28/04/2012]
+E = [27/04/2012, 28/04/2012, 29/04/2012]
+B = [03/05/2012, 04/05/2012, 05/05/2012]
+H = [09/05/2012, 10/05/2012, 11/05/2012]
+
+Hour.
+Only contact events recorded between 6am and 8pm are reported.
+Hours are indicated by integers corresponding to the end of the time interval:
+- 7 = from 6am to 7am
+- 8 = from 7am to 8am
+…
+- 20 = from 7pm to 8pm
+
+

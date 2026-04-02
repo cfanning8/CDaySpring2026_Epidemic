@@ -1,0 +1,2 @@
+dataset,combo_id,lambda_g,learning_rate,fusion_hidden_dim,rkhs_proj_hidden_dim,weight_decay,rmse,brier,ece,tag
+Infectious,9,0.03,0.0005,64,64,0.0001,0.22179117210320806,0.5155315782563825,0.7180052545454545,tune_infectious_009

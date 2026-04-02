@@ -1,0 +1,9 @@
+pandas
+numpy
+gudhi
+torch
+torch-geometric
+scikit-learn
+matplotlib
+pyvista
+tqdm

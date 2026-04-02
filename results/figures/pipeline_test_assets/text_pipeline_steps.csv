@@ -1,0 +1,13 @@
+name,input,output
+events_to_temporal_graph,C:\Users\auror\dev\2026\Spring_2026\C_Day\CDaySpring2026_Epidemic-setup-data-loaders\CDaySpring2026_Epidemic-setup-data-loaders\temp\pilot_infectious\table.csv,G_t
+weighted_filtration,G_t,K_t^epsilon
+persistence_diagram,K_t^epsilon,D_t
+persistence_landscape_grid,D_t,L_t
+diagram_to_vector,D_t,psi(D_t)
+virtual_drift_jet,psi(D),"g_t,a_t"
+tgn_window_pool,G_t,h_t
+landscape_mlp,L_t,z_t^top
+rkhs_embed,g_t,z_t^rkhs
+fuse_and_predict,"h_t,z_t^top,z_t^rkhs",Y_hat_t
+train_objective,"Y_hat_t,Y_t",L_pred+L_D+L_g
+cached_features,C:\Users\auror\dev\2026\Spring_2026\C_Day\CDaySpring2026_Epidemic-setup-data-loaders\CDaySpring2026_Epidemic-setup-data-loaders\temp\pilot_infectious\table.csv,C:\Users\auror\dev\2026\Spring_2026\C_Day\CDaySpring2026_Epidemic-setup-data-loaders\CDaySpring2026_Epidemic-setup-data-loaders\temp\pilot_infectious\features.npz
